@@ -14,11 +14,15 @@
 
 .masthead {
     height: 100vh;
-    height: 500px;
+    min-height: 100px;
     background-image: url('./Blue/media/header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .important{
+      margin-left: 0% !important; 
   }
 
 .wave-1{
@@ -67,4 +71,75 @@
     background-image:  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url("./Blue/media/4.png");
     background-size: cover;
     border: none;
+}
+
+/* FINE CARDS */
+
+.card-lorem{
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.icon-1{
+    color: red;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-2{
+    color: green;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-3{
+    color: orange;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-4{
+    color: blue;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-5{
+    border: 1px solid white;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon-6{
+    border: 1px solid white;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD SPOSTATE */
+
+.card-1{
+    border: none;
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-2{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
