@@ -4,8 +4,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.t-color{
-    color: #1566C0;
+:root {
+    --main-color: #1566C0;
+    --sec-color: grey;
+}
+
+.t-color {
+    color: var(--main-color);
+}
+
+.txt-color {
+    color: var(--sec-color);
 }
 
 .title{
@@ -53,24 +62,44 @@
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url("./Blue/media/1.png");
     background-size: cover;
     border: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.bg-card-1:hover{
+    transform: scale(1.05);
 }
 
 .bg-card-2{
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url("./Blue/media/2.png");
     background-size: cover;
     border: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.bg-card-2:hover{
+    transform: scale(1.05);
 }
 
 .bg-card-3{
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url("./Blue/media/3.png");
     background-size: cover;
     border: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.bg-card-3:hover{
+    transform: scale(1.05);
 }
 
 .bg-card-4{
     background:  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url("./Blue/media/4.png");
     background-size: cover;
     border: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.bg-card-4:hover{
+    transform: scale(1.05);
 }
 
 /* FINE CARDS */
@@ -149,6 +178,11 @@
     background-size: cover;
     border: 4px solid #1566C0;
     border-radius: 100%;
+    transition: all 0.8s ease-in-out;  
+}
+
+.circle-1:hover{
+    transform: scale(1.1);
 }
 
 .circle-2{
@@ -158,16 +192,15 @@
     background-position-x: right;
     border: 5px solid #1566C0;
     border-radius: 100%;
+    transition: all 0.8s ease-in-out;
+}
+
+.circle-2:hover{
+    transform: scale(1.1);
 }
 
 /* TABS */
-.tab-circle{
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid #1566C0;
-    margin-bottom: 150px;
-}
+
 
 /* FOOTER */
 .bg-footer{
