@@ -24,7 +24,7 @@
 .masthead {
     height: 100vh;
     min-height: 100px;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url('./Blue/media/header.jpg');
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(1,1,0,0.1) 50%, rgba(3,2,0,1) 100%), url('./Blue/media/header1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,17 +33,6 @@
   .important{
       margin-left: 0% !important; 
   }
-
-.wave-1{
-    position: absolute;
-    bottom: 20px;
-
-}
-
-.wave-2{
-    position: absolute;
-    bottom: -2px;
-}
 
 .text-h3{
     z-index: 100;
