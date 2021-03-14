@@ -136,7 +136,7 @@
 }
 
 .icon-4{
-    color: blue;
+    color: var(--main-color);
     margin-right: 70px;
     border: none;
     border-radius: 10px;
@@ -176,7 +176,7 @@
     width: 250px;
     height: 250px;
     background-size: cover;
-    border: 4px solid #1566C0;
+    border: 4px solid var(--main-color);
     border-radius: 100%;
     transition: all 0.8s ease-in-out;  
 }
@@ -190,7 +190,7 @@
     height: 250px;
     background-size: cover;
     background-position-x: right;
-    border: 5px solid #1566C0;
+    border: 5px solid var(--main-color);
     border-radius: 100%;
     transition: all 0.8s ease-in-out;
 }
@@ -199,8 +199,35 @@
     transform: scale(1.1);
 }
 
-/* TABS */
+/* TAB */
+.line::before{
+    content: "";
+    background-color: var(--main-color);
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    z-index: -100;
+}
 
+.b-circle::before {
+    content: '';
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--main-color);
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+/* BUTTON */
+.blu-btn {
+    background-color: var(--main-color);
+    border: none;
+}
 
 /* FOOTER */
 .bg-footer{
